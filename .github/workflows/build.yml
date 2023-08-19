@@ -10,5 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run tests
-        run: mvn clean test
+      
+    - name: Run tests
+      run: mvn clean test
